@@ -12,4 +12,4 @@ El lenguaje a utilizar (en un principio) será Python
 
 Se ira actualizando este archivo con los distintos cambios que vaya teniendo el proyecto
 
-[DOcumentacion de este objetivo](docs/HU.md)
+[Documentacion de este objetivo](docs/HU.md)
