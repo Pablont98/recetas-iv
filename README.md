@@ -6,3 +6,5 @@ a modo de libro de recetas digital.
 El lenguaje a utilizar (en un principio) será Python
 
 Se ira actualizando este archivo con los distintos cambios que vaya teniendo el proyecto
+
+[Contribution guidelines for this project](docs/HU.md)
