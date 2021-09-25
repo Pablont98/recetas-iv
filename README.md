@@ -8,6 +8,9 @@ En esta aplicación se podran tanto consultar recetas de manera independiente se
 como solicitar a la aplicación que nos diseñe una dieta orientativa de 7 dias según nuestras restricciones
 caloricas, intolerancias, etc.
 
+Se ha abordado el proyecto de esta manera con la idea de darle mas variedad al usuario y no sea simplemente solo 
+una pagina en la consultar recetas.
+
 El lenguaje a utilizar (en un principio) será Python
 
 Se ira actualizando este archivo con los distintos cambios que vaya teniendo el proyecto
