@@ -1,4 +1,4 @@
-# Documentación correspondiente al objetivo-1
+# Documentación correspondiente al objetivo-1 
 
 La aplicación esta pensada para ser usada principalmente por dos tipos de usuario:
 
