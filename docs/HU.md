@@ -1,4 +1,4 @@
-# Documentación correspondiente al objetivo-1 #
+# Documentación correspondiente al objetivo-1 
 
 La aplicación esta pensada para ser usada principalmente por dos tipos de usuario:
 
@@ -20,7 +20,7 @@ Ejemplo de lo anterior:
 > Usuarios registrados en un intervalo de edad de 18 a 24 años buscan frecuentemente comidas con el tag "pasta" y "comida rápida"
 > Usuarios registrados en un intervalo de edad de 50 a 65 años buscan frecuentemente comidas con el tag "bajas en calorías"
 
-## Descripción/perfil de usuarios: ##
+## Descripción/perfil de usuarios:
 
 1. Usuario alérgico (Paqui): Persona de entre 30-60 años, ama de casa, nivel de experiencia con apps: media-baja, es alérgica al huevo por lo que su margen de comidas es bastante limitado. Quiere que la aplicación le aporte un plan semanal de comidas variadas y alternativas a platos que tienen como ingrediente el huevo.
 
@@ -28,5 +28,5 @@ Ejemplo de lo anterior:
 
 3. Usuario estudiante (Alba): Persona de entre 18-25 años, estudiante universitario, nivel de experiencia con apps: alto, tiene que comer antes de irse a la facultad pero tiene 4 ingredientes sueltos por casa y no le da tiempo de pasar por un supermercado ... Introduce en la aplicación los ingredientes que tiene y esta le facilita una receta con la que poder "salir del paso". 
 
-## Descripción de dieta ##
+## Descripción de dieta
 Una dieta es una composición de recetas que siguen una serie de características impuestas por el usuario que la solicita. El usuario especificará el numero máximo de calorías que quiere que tenga dicha dieta e intolerancias alimentarias que pueda tener. La dieta se creará filtrando las características aportadas por el usuario con las recetas existentes en la aplicación.  
