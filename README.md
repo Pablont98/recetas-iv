@@ -19,7 +19,7 @@ Se ira actualizando este archivo con los distintos cambios que vaya teniendo el 
 
 * Objetivo 3 - [Justificación de elección de task runner para el proyecto](docs/obj3.md)
 
-## Guia de instalación y uso
+## Instalación y uso
 
 Descargar los archivos fuente de este repositorio de manera directa desde github o [clonándolo](https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository)
 Con el proyecto ya descargado:
@@ -29,4 +29,3 @@ Con el proyecto ya descargado:
 4. Para correr los test y comprobar que todo funciona bien, escribimos el siguiente comando: ```invoke test```
 
 * Para comprobar que la sintaxis de los ficheros del módulo que se está ejecutando es la correcta podemos escribir el siguiente comando: ```invoke check```
-* Si queremos trabajar con el repo en modo desarrollador añadiremos ```--dev``` en el comando del apartado 3.
