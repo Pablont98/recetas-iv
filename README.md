@@ -19,6 +19,8 @@ Se ira actualizando este archivo con los distintos cambios que vaya teniendo el 
 
 * Objetivo 3 - [Justificación de elección de task runner para el proyecto](docs/obj3.md)
 
+* Objetivo 4 - [Clase Receta que se va a testear]
+
 ## Instalación y uso
 
 Descargar los archivos fuente de este repositorio de manera directa desde github o [clonándolo](https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository)
