@@ -10,9 +10,10 @@ class Receta:
         self.dificultad = dificultad
         self.elaboracion = elaboracion
 
-    '''Método que calcula el aporte calórico total de la receta a partir de sus ingredientes.'''
+    
     
     def kcals_maximas(self):
+            '''Método que calcula el aporte calórico total de la receta a partir de sus ingredientes.'''
             kcals = 0
             for ing in self.ingredientes:
                 kcals += ing.kcals
