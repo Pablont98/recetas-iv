@@ -3,7 +3,7 @@
 la clase Receta es la clase que se va a testear en el objetivo-4 de la asignatura IV. Dicha clase recoge como su nombre indica toda la información
 necesaria para llevar a cabo una determinada receta.
 
-Los atributos desde los que se componen pasan por:
+Los atributos de los que se compone pasan por:
 
 * Nombre de la receta
 * Ingredientes (Esto es una lista de objetos de la clase Ingrediente)
