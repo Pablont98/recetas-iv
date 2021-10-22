@@ -7,6 +7,3 @@ class Ingrediente:
         self.vitaminas = vitaminas
         self.precio = precio
         self.kcals = kcals
-
-    def kcals(self):
-        return self.kcals
