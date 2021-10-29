@@ -1,17 +1,15 @@
-from Ingrediente import Ingrediente
+#Realizado por Pablo Nuñez Tejero
+#Clase de prueba para realizar el objetivo 3 (no sirve para el objetivo 2)
+#A espera de la version valida por parte de mi compeñero
 
 class Receta:
-    '''Clase que alberga los datos necesarios para guardar una receta correctamente.'''
-    
-    def __init__(self, nombre, ingredientes, duracion, dificultad, elaboracion):
+    def __init__(self, nombre, ingredientes, duracion, dificultad, explicacion):
         self.nombre = nombre
         self.ingredientes = list(ingredientes)
         self.duracion = duracion
         self.dificultad = dificultad
-        self.elaboracion = elaboracion
+        self.explicacion = explicacion
 
-    
-    
-    def kcals_maximas(self):
-            '''Método que calcula el aporte calórico total de la receta a partir de sus ingredientes.'''
+    #Metodo que calcula el total de calorias de la receta a partir de la lista de ingredientes
+    def calcular_aporte_calorico_maximo(self):
         pass
