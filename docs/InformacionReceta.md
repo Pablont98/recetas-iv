@@ -9,7 +9,7 @@ Los atributos de los que se compone pasan por:
 * Ingredientes (Esto es una lista de objetos de la clase Ingrediente)
 * Duración de la receta
 * Dificultad de la receta
-* Explicación de la receta (Se le pasará un archivo de texto que contenga dicha explicación)
+* Explicación de la receta
 
 Para ver el correcto funcionamiento de esta clase, se llevará acabo un test que sea capaz de crear una objeto Receta y realizar un calculo del total de calorias 
 que contiene dicha receta. 
