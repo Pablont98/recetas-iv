@@ -8,7 +8,18 @@ class Ingrediente:
         self.precio = precio
         self.kcals_base = kcals_base
         self.unidad = unidad
+        self.cantidad = cantidad
 
-    def kcals_totales():
+    def kcals_totales(self):
         '''Método que calculará las kcals que tiene un ingrediente en base a su peso y a sus kcals base.'''
-        pass
+        division = 1
+        if(self.unidad == "gramos"):
+        	division = 100
+        if(self.unidad == "mililitros"):
+        	division = 100
+        if(self.unidad == "kilos"):
+        	division = 1
+        if(self.unidad == "litros"):
+        	division = 1
+        kcals_ingrediente_max = (self.kcals_base * self.cantidad) / division
+        return kcals_ingrediente_max
