@@ -1,4 +1,4 @@
-### Justificacion de elección de pytest ###
+### Justificación de elección de pytest ###
 
 Se ha optado por la utilización de pytest para testear la aplicación por su sintaxis simple, por incluir fixtures y por su biblioteca assert la cual
 nos resultará bastante util y simple también.
@@ -8,5 +8,5 @@ nos resultará bastante util y simple también.
 
 * Assert: Comprueba que la expresión pasada como argumento en el test sea correcta.
 
-Ademas de todo lo anterior, en caso de algun fallo o problema tenemos una extensa documentación, información y foros a los que acudir, lo cual es
+Ademas de todo lo anterior, en caso de algún fallo o problema tenemos una extensa documentación, información y foros a los que acudir, lo cual es
 bastante aconsejable.
