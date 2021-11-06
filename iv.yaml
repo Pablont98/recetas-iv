@@ -1,0 +1,6 @@
+lenguaje: python
+entidad: /src/Receta.py
+automatizar:
+    fichero: tasks.py
+    orden: invoke
+test: test/test_receta.py
