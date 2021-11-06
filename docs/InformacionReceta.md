@@ -11,5 +11,5 @@ Los atributos de los que se compone pasan por:
 * Dificultad de la receta
 * Explicación de la receta (Se le pasará un archivo de texto que contenga dicha explicación)
 
-Para ver el correcto funcionamiento de esta clase, se llevará acabo un test que sea capaz de crear una objeto Receta y realizar un calculo del total de calorias 
-que contiene dicha receta. 
+Para ver el correcto funcionamiento de esta clase, se llevará acabo un test que sea capaz de crear una objeto Receta y realizar un calculo del total de calorias, 
+proteinas, hidratos y grasas que contiene dicha receta. 
