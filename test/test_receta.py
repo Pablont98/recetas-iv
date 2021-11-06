@@ -21,7 +21,7 @@ def receta():
     lista_ingredientes.append(ingrediente_cinco)
     elaboracion = "Cortar las patatas, las cebollas y los pimientos, lavar en agua, echar sal, echar el aceite " \
                    "en una sarten calentar y cuando el aceite este caliente freir las patatas, las cebollas y el pimiento"
-    receta = Receta('Salteado de patatas', lista_ingredientes, 45, 'media',elaboracion)
+    receta = Receta('Salteado de patatas', lista_ingredientes, 45, 2, elaboracion)
 
     return receta
 
