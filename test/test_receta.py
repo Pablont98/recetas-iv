@@ -29,5 +29,14 @@ def test_kcals_ingrediente_max(receta):
     assert receta.ingredientes[0].kcals_totales() == 800
 
 def test_kcals_max_receta(receta):
-    assert receta.kcals_maximas() == 1700
+    assert receta.kcals_maximas() == 1294.65
+
+def test_proteinas_max_receta(receta):
+    assert receta.proteinas_maximas() == 27.75
+
+def test_hidratos_max_receta(receta):
+    assert receta.hidratos_maximos() == 182.25
+
+def test_grasas_max_receta(receta):
+    assert receta.grasas_maximas() == 356.8
 
