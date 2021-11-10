@@ -1,8 +1,8 @@
-from Ingrediente import Ingrediente
+#from Ingrediente import *
 
 class Receta:
     '''Clase que alberga los datos necesarios para guardar una receta correctamente.'''
-    
+
     def __init__(self, nombre, ingredientes, duracion, dificultad, elaboracion):
         self.nombre = nombre
         self.ingredientes = list(ingredientes)
