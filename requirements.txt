@@ -1,2 +1,2 @@
-pylint
+pyproject.toml
 pytest
