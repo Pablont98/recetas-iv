@@ -27,3 +27,8 @@ class Ingrediente:
         kcals_ingrediente_max = (self.kcals_base * self.cantidad) / division
         return round(kcals_ingrediente_max,2)
 
+    def proteinas_totales(self):
+        '''Metodo que calculara el numero de proteinas totales del ingrediente en base a la cantidad de dicho
+           ingrediente Las proteinas se daran siempre en base a 100 gramos '''
+        return round((self.proteinas * self.cantidad)/100,2)
+
