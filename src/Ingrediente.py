@@ -37,3 +37,7 @@ class Ingrediente:
            ingrediente Los hidratos se daran siempre en base a 100 gramos '''
         return round((self.hidratos * self.cantidad)/100,2)
 
+    def grasas_totales(self):
+        '''Metodo que calculara el numero de grasas totales del ingrediente en base a la cantidad de dicho
+           ingrediente. Las grasas se daran siempre en base a 100 gramos '''
+        return round((self.grasas * self.cantidad)/100,2)
