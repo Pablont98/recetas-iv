@@ -31,4 +31,9 @@ class Ingrediente:
         '''Metodo que calculara el numero de proteinas totales del ingrediente en base a la cantidad de dicho
            ingrediente Las proteinas se daran siempre en base a 100 gramos '''
         return round((self.proteinas * self.cantidad)/100,2)
+        
+    def hidratos_totales(self):
+        '''Metodo que calculara el numero de hidratos totales del ingrediente en base a la cantidad de dicho
+           ingrediente Los hidratos se daran siempre en base a 100 gramos '''
+        return round((self.hidratos * self.cantidad)/100,2)
 
