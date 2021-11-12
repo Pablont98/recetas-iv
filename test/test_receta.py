@@ -1,8 +1,8 @@
 # Archivo para realizar tests a la clase Receta de nuestro proyecto
 
 import pytest
-from src.Receta import *
-from src.Ingrediente import *
+from src.receta import *
+from src.ingrediente import *
 
 
 @pytest.fixture
