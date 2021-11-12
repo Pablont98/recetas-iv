@@ -18,3 +18,5 @@ Se ha decidido organizar el código del proyecto de la siguiente manera:
 * Destacar que aun no se tiene en cuenta la elaboración para el cálculo de calorias y grasas (esta puede influir en el numero de calorias y grasas). Esto se
   resolverá mas adelante conforme el proyecto avance.
 * Destacar que de momento se considera como unidad de medida de todos los elementos el gramo. Esto se resolverá/cambiará mas adelante conforme avance el proyecto.
+
+Dichas decisiones solucionarian los issues #24 #25 #26 #27 #28 #29 #30 #31 Considerando completado el Milestone 1 y avanzando al Milestone 2
