@@ -19,4 +19,4 @@ Se ha decidido organizar el código del proyecto de la siguiente manera:
   resolverá mas adelante conforme el proyecto avance.
 * Destacar que de momento se considera como unidad de medida de todos los elementos el gramo. Esto se resolverá/cambiará mas adelante conforme avance el proyecto.
 
-Dichas decisiones solucionarian los issues #24 #25 #26 #27 #28 #29 #30 #31 Considerando completado el Milestone 1 y avanzando al Milestone 2
+Dichas decisiones solucionarian los issues [#24](https://github.com/Pablont98/IV/issues/24) [#25](https://github.com/Pablont98/IV/issues/25) [#26](https://github.com/Pablont98/IV/issues/26) [#27](https://github.com/Pablont98/IV/issues/27) [#28](https://github.com/Pablont98/IV/issues/28) [#29](https://github.com/Pablont98/IV/issues/29) [#30](https://github.com/Pablont98/IV/issues/30) [#31](https://github.com/Pablont98/IV/issues/31) Considerando completado el [Milestone 1](https://github.com/Pablont98/IV/milestone/5) y avanzando al [Milestone 2](https://github.com/Pablont98/IV/milestone/1)
