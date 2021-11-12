@@ -5,10 +5,17 @@ class Ingrediente:
         self.nombre = nombre
         self.descripcion = descripcion
         self.vitaminas = list()
+        contador = 0
         for caracter in vitaminas:
+            vitamina_compuesta = ''
             if caracter != ',' or caracter != ' ':
-                self.vitaminas = caracter
-
+                vitamina_compuesta = caracter
+                if (contador == len(vitaminas)-1) and vitaminas[contador+1] != ',' or vitaminas[contador+1] != ' ':
+                    vitamina_compuesta += vitaminas[contador+1]
+                else:
+                    self.vitaminas.append(vitamina_compuesta)
+            contador += 1
+            
         self.precio = precio
         self.kcals = kcals
         self.proteinas = proteinas
