@@ -1,43 +1,37 @@
 class Ingrediente:
     '''Clase que alberga los datos necesarios para guardar un ingrediente correctamente.'''
 
-    def __init__(self, nombre, descripcion, vitaminas, precio, kcals_base, proteinas, hidratos, grasas, unidad, cantidad):
+    def __init__(self, nombre, descripcion, vitaminas, precio, kcals, proteinas, hidratos, grasas):
         self.nombre = nombre
         self.descripcion = descripcion
-        self.vitaminas = vitaminas
+        self.vitaminas = list()
+        for caracter in vitaminas:
+            if caracter != ',' or caracter != ' ':
+                self.vitaminas = caracter
+
         self.precio = precio
-        self.kcals_base = kcals_base
+        self.kcals = kcals
         self.proteinas = proteinas
         self.hidratos = hidratos
         self.grasas = grasas
-        self.unidad = unidad
-        self.cantidad = cantidad
 
-    def kcals_totales(self):
-        '''Método que calculará las kcals que tiene un ingrediente en base a su cantidad y a sus kcals base.'''
-        division = 1
-        if(self.unidad == "gramos"):
-            division = 100
-        if(self.unidad == "mililitros"):
-            division = 100
-        if(self.unidad == "kilos"):
-            division = 1
-        if(self.unidad == "litros"):
-            division = 1
-        kcals_ingrediente_max = (self.kcals_base * self.cantidad) / division
+    def kcals_totales(self, cantidad):
+        '''Método que calculará las kcals que tiene un ingrediente en base a su cantidad y a sus kcals base.
+           En este momento se considerará como unidad gramos a todos los ingredientes.'''
+        kcals_ingrediente_max = (self.kcals * cantidad) / 100
         return round(kcals_ingrediente_max,2)
 
-    def proteinas_totales(self):
+    def proteinas_totales(self, cantidad):
         '''Metodo que calculara el numero de proteinas totales del ingrediente en base a la cantidad de dicho
            ingrediente Las proteinas se daran siempre en base a 100 gramos '''
-        return round((self.proteinas * self.cantidad)/100,2)
+        return round((self.proteinas * cantidad)/100,2)
 
-    def hidratos_totales(self):
+    def hidratos_totales(self, cantidad):
         '''Metodo que calculara el numero de hidratos totales del ingrediente en base a la cantidad de dicho
            ingrediente Los hidratos se daran siempre en base a 100 gramos '''
-        return round((self.hidratos * self.cantidad)/100,2)
+        return round((self.hidratos * cantidad)/100,2)
 
-    def grasas_totales(self):
+    def grasas_totales(self, cantidad):
         '''Metodo que calculara el numero de grasas totales del ingrediente en base a la cantidad de dicho
            ingrediente. Las grasas se daran siempre en base a 100 gramos '''
-        return round((self.grasas * self.cantidad)/100,2)
+        return round((self.grasas * cantidad)/100,2)
