@@ -19,7 +19,7 @@ Se ira actualizando este archivo con los distintos cambios que vaya teniendo el 
 
 * Objetivo 3 - [Justificación de elección de task runner para el proyecto](docs/obj3.md)
 
-* Objetivo 4 - [Clase Receta que se va a testear](docs/InformacionReceta.md) y [Justificación de uso de pytest](docs/justificacion_pytest.md)
+* Objetivo 4 - [Clase Receta que se va a testear](docs/InformacionReceta.md), [Justificación de uso de pytest](docs/justificacion_pytest.md) y [Decisiones de código tomadas](https://github.com/Pablont98/IV/blob/Objetivo-4/docs/decisiones_codigo.md)
 
 ## Instalación y uso
 
@@ -30,4 +30,10 @@ Con el proyecto ya descargado:
 3. Ahora instalamos las dependencias con el siguiente comando: ```invoke installdeps```
 4. Para correr los test y comprobar que todo funciona bien, escribimos el siguiente comando: ```invoke test```
 
-* Para comprobar que la sintaxis de los ficheros del módulo que se está ejecutando es la correcta podemos escribir el siguiente comando: ```invoke check```
+## Información adicional
+* Se ha elegido Poetry como gestor de dependencias, para así poder ajustarnos a las buenas prácticas de Python las cuales ya no hacen uso de requirements.txt sino
+  de pyproject.toml. La instalación y uso de este será transparente al usuario ya que se instala desde la orden ```invoke installdeps```. 
+* A la hora de realizar los test no se han tenido en cuenta aun situaciones como el metodo de elaboración de la receta para el cálculo de calorias y grasas. Ya 
+  que la elaboración puede influir en la absorción o perdidas de estos componentes.
+* De momento la unidad de medida de todos los ingredientes es el gramo. 
+> Estos dos últimos puntos se iran resolviendo con el avance del proyecto.

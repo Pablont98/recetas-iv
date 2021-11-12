@@ -29,16 +29,16 @@ class Ingrediente:
         return round(kcals_ingrediente_max,2)
 
     def proteinas_totales(self, cantidad):
-        '''Metodo que calculara el numero de proteinas totales del ingrediente en base a la cantidad de dicho
+        '''Metodo que calculará el número de proteinas totales del ingrediente en base a la cantidad de dicho
            ingrediente Las proteinas se daran siempre en base a 100 gramos '''
         return round((self.proteinas * cantidad)/100,2)
 
     def hidratos_totales(self, cantidad):
-        '''Metodo que calculara el numero de hidratos totales del ingrediente en base a la cantidad de dicho
+        '''Metodo que calculará el número de hidratos totales del ingrediente en base a la cantidad de dicho
            ingrediente Los hidratos se daran siempre en base a 100 gramos '''
         return round((self.hidratos * cantidad)/100,2)
 
     def grasas_totales(self, cantidad):
-        '''Metodo que calculara el numero de grasas totales del ingrediente en base a la cantidad de dicho
+        '''Metodo que calculará el número de grasas totales del ingrediente en base a la cantidad de dicho
            ingrediente. Las grasas se daran siempre en base a 100 gramos '''
         return round((self.grasas * cantidad)/100,2)
