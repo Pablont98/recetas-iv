@@ -19,7 +19,7 @@ Se ira actualizando este archivo con los distintos cambios que vaya teniendo el 
 
 * Objetivo 3 - [Justificación de elección de task runner para el proyecto](docs/obj3.md)
 
-* Objetivo 4 - [Clase Receta que se va a testear](docs/InformacionReceta.md) y [Justificación de uso de pytest](docs/justificacion_pytest.md)
+* Objetivo 4 - [Clase Receta que se va a testear](docs/InformacionReceta.md), [Justificación de uso de pytest](docs/justificacion_pytest.md) y [Decisiones de código tomadas](https://github.com/Pablont98/IV/blob/Objetivo-4/docs/decisiones_codigo.md)
 
 ## Instalación y uso
 
