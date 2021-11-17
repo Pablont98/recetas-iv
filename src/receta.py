@@ -19,7 +19,7 @@ class Receta:
         for ing in self.ingredientes:
             kcals_max += ing.kcals_totales(self.cantidades[contador])
             contador += 1
-        return round(kcals_max,2)
+        return kcals_max
 
     def hidratos_maximos(self):
         ''' Método que calcula el número de hidratos de la receta a partir de sus ingredientes.'''
@@ -28,7 +28,7 @@ class Receta:
         for ing in self.ingredientes:
             hidratos_max += ing.hidratos_totales(self.cantidades[contador])
             contador += 1
-        return round(hidratos_max,2)
+        return hidratos_max
 
     def proteinas_maximas(self):
         ''' Método que calcula el número de proteinas de la receta a partir de sus ingredientes.'''
@@ -37,7 +37,7 @@ class Receta:
         for ing in self.ingredientes:
             proteinas_max += ing.proteinas_totales(self.cantidades[contador])
             contador += 1
-        return round(proteinas_max,2)
+        return proteinas_max
 
     def grasas_maximas(self):
         ''' Método que calcula las grasas totales de la receta a partir de sus ingredientes.
@@ -48,7 +48,7 @@ class Receta:
         for ing in self.ingredientes:
             grasas_max += ing.grasas_totales(self.cantidades[contador])
             contador += 1
-        return round(grasas_max,2)
+        return grasas_max
 
     def visualizar_receta(self):
         '''Método que muestra una carta mostrando informacion referente a la receta'''
