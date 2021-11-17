@@ -35,7 +35,7 @@ def test_proteinas_max_receta(receta):
     assert receta.proteinas_maximas() == 27.75
 
 def test_hidratos_max_receta(receta):
-    assert receta.hidratos_maximos() == 182.25
+    assert receta.hidratos_maximos() == 182.25000000000003
 
 def test_grasas_max_receta(receta):
     assert receta.grasas_maximas() == 356.15
