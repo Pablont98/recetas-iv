@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "IV"
+version = "0.0.6"
+description = "Aplicacion de recetas"
+authors = ["Pablo Nuñez Tejero <e.pablonueztejer@go.ugr.es>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytest = "^6.2.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
