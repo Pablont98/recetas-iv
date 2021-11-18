@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2.4.0
       - name: Docker Hub README & description sync
-        uses: meeDamian/sync-readme@latest
+        uses: meeDamian/sync-readme@v1.0.6
         with:
           pass: ${{ secrets.DOCKER_PASS }}
           description: true
