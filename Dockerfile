@@ -8,11 +8,7 @@ RUN mkdir -p /app/test/
 
 WORKDIR /app/test
 
-RUN chown userprueba:userprueba /app/test
-
 USER userprueba
-
-COPY pyproject.toml /app/test/
 
 COPY tasks.py /app/test/
 
