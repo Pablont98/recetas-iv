@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  sincroniza:
+  sincronizacion:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
