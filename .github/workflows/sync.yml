@@ -17,5 +17,7 @@ jobs:
       - name: Docker Hub README & description sync
         uses: meeDamian/sync-readme@v1.0.6
         with:
-          pass: ${{ secrets.DOCKER_PASS }}
+          pass: ${{ secrets.DOCKER_PASSWORD }}
+          repository: ${{ secrets.DOCKER_USERNAME }}/recetas-iv
+          readme: "./README.md"
           description: true
