@@ -14,10 +14,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2.4.0
-      - name: Docker Hub README & description sync
-        uses: meeDamian/sync-readme@v1.0.6
+      - name: Sync
+        uses: ms-jpq/sync-dockerhub-readme@v1
         with:
-          pass: ${{ secrets.DOCKER_PASSWORD }}
-          repository: ${{ secrets.DOCKER_USERNAME }}/recetas-iv
+          username: <dockerhub username>
+          password: <dockerhub password>
+          repository: <dockerhub name/repo>
           readme: "./README.md"
-          description: true
