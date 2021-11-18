@@ -1,0 +1,21 @@
+name: Sincronizacion README
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  sincroniza:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.4.0
+      - name: Docker Hub README & description sync
+        uses: meeDamian/sync-readme@v1.0.6
+        with:
+          pass: ${{ secrets.DOCKER_PASS }}
+          description: true
