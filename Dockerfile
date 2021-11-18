@@ -10,6 +10,8 @@ WORKDIR /app/test
 
 USER userprueba
 
+COPY pyproject.toml /app/test/
+
 COPY tasks.py /app/test/
 
 ENV PATH="$PATH:/home/userprueba/.local/bin:${PATH}"
