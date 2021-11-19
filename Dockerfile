@@ -11,7 +11,7 @@ USER userprueba
 
 WORKDIR /app/test
 
-COPY poetry.lock pyproject.toml tasks.py /app/test/
+COPY pyproject.toml tasks.py /app/test/
 
 ENV PATH="$PATH:/home/userprueba/.local/bin"
 
