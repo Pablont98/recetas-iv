@@ -15,11 +15,11 @@ Se ira actualizando este archivo con los distintos cambios que vaya teniendo el 
 
 ## Documentación adicional de objetivos
 
-* Objetivo 1 - [Documentación correspondiente al objetivo-1](docs/HU.md)
+* Objetivo 1 - [Documentación correspondiente al objetivo-1](https://github.com/Pablont98/recetas-iv/blob/main/docs/HU.md)
 
-* Objetivo 3 - [Justificación de elección de task runner para el proyecto](docs/obj3.md)
+* Objetivo 3 - [Justificación de elección de task runner para el proyecto](https://github.com/Pablont98/recetas-iv/blob/main/docs/obj3.md)
 
-* Objetivo 4 - [Clase Receta que se va a testear](docs/InformacionReceta.md), [Justificación de uso de pytest](docs/justificacion_pytest.md) y [Decisiones de código tomadas](https://github.com/Pablont98/IV/blob/Objetivo-4/docs/decisiones_codigo.md)
+* Objetivo 4 - [Clase Receta que se va a testear](https://github.com/Pablont98/recetas-iv/blob/main/docs/InformacionReceta.md), [Justificación de uso de pytest](https://github.com/Pablont98/recetas-iv/blob/main/docs/justificacion_pytest.md) y [Decisiones de código tomadas](https://github.com/Pablont98/IV/blob/Objetivo-4/docs/decisiones_codigo.md)
 
 ## Instalación y uso
 
