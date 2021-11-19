@@ -30,6 +30,18 @@ Con el proyecto ya descargado:
 3. Ahora instalamos las dependencias con el siguiente comando: ```invoke installdeps```
 4. Para correr los test y comprobar que todo funciona bien, escribimos el siguiente comando: ```invoke test```
 
+## Contenedor de pruebas
+Para la creación del contenedor se ha creado un archivo [Dockerfile](https://github.com/Pablont98/recetas-iv/blob/Objetivo-5/Dockerfile) el cual realiza los 
+pasos necesarios para la correcta creación de dicho contenedor. Como contenedor base se ha optado por el oficial del lenguaje Python en su versión 3.8 (el código
+del proyecto esta escrito en esta versión). Dicho contenedor lo utilizaremos para ejecutar nuestros test. La instalación de dependencias, módulos, bibliotecas,
+etc. Son transparentes al usuario.
+> para realizar los tests dentro de este contenedor se tendrá que disponer de la herramienta docker en nuestro sistema.
+* Se recomienda hacer pull de este repositorio en DockerHub con la siguiente linea en nuestra terminal: ```docker pull pablont98/recetas-iv```.
+* Tras esto nos descargamos este repositorio desde github y nos posicionamos dentro de el.
+* Por último escribimos lo siguiente en la terminal: ```docker run -t -v `pwd`:/app/test pablont98/recetas-iv```.
+
+Enlace del repositorio en DockerHub [pablont98/recetas-iv](https://hub.docker.com/repository/docker/pablont98/recetas-iv/general)
+
 ## Información adicional
 * Se ha elegido Poetry como gestor de dependencias, para así poder ajustarnos a las buenas prácticas de Python las cuales ya no hacen uso de requirements.txt sino
   de pyproject.toml. La instalación y uso de este será transparente al usuario ya que se instala desde la orden ```invoke installdeps```. 
