@@ -20,6 +20,8 @@ ENV PATH="$PATH:/home/userprueba/.local/bin:${PATH}"
 
 RUN pip install invoke
 
+RUN pip install pytest
+
 RUN invoke installdeps
 
 ENTRYPOINT ["invoke", "test"]
