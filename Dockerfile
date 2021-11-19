@@ -8,7 +8,7 @@ RUN mkdir -p /app/test/
 
 WORKDIR /app/test
 
-RUN chown 666 userprueba:userprueba /app/test
+RUN chown -R userprueba:userprueba /app/test
 
 USER userprueba
 
