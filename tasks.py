@@ -9,6 +9,7 @@ def installdeps(c):
     print("Instalando dependencias:")
     run("pip install pytest \
         && pip install poetry \
+        && poetry config virtualenvs.create false \
         && poetry update \
         && poetry install")
 
