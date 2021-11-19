@@ -2,10 +2,10 @@ name: Docker update
 on:
   push:
     branches:
-      - main
+      - Objetivo-5
   pull_request:
     branches:
-      - main
+      - Objetivo-5
 jobs:
   update:
     runs-on: ubuntu-latest
