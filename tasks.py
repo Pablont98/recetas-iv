@@ -7,7 +7,10 @@ def installdeps(c):
     """
 
     print("Instalando dependencias:")
-    run("pip install poetry && poetry update && poetry install && pip install pytest")
+    run("pip install pytest \
+        && pip install poetry \
+        && poetry update \
+        && poetry install")
 
 
 @task
