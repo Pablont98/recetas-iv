@@ -29,6 +29,7 @@ Con el proyecto ya descargado:
 2. [Instalamos Invoke](https://www.pyinvoke.org/installing.html) con el siguiente comando: ```pip install invoke```
 3. Ahora instalamos las dependencias con el siguiente comando: ```invoke installdeps```
 4. Para correr los test y comprobar que todo funciona bien, escribimos el siguiente comando: ```invoke test```
+* Para comprobar que la sintaxis de los ficheros del módulo que se está ejecutando es la correcta podemos escribir el siguiente comando: ```invoke check```
 
 ## Contenedor de pruebas
 Para la creación del contenedor se ha creado un archivo [Dockerfile](https://github.com/Pablont98/recetas-iv/blob/Objetivo-5/Dockerfile) el cual realiza los 
