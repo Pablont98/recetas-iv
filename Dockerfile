@@ -12,13 +12,12 @@ RUN chown userprueba:userprueba /app/test
 
 USER userprueba
 
-COPY pyproject.toml tasks.py /app/test/
+COPY  poetry.lock  pyproject.toml tasks.py /app/test/
 
-ENV PATH="$PATH:/home/userprueba/.local/bin:${PATH}"
+ENV PATH="$PATH:/home/userprueba/.local/bin"
 
-RUN pip install invoke \
-    && pip install pytest
+RUN pip install invoke 
 
 RUN invoke installdeps
 
-ENTRYPOINT ["invoke", "test"]
+ENTRYPOINT ["invoke", "installdeps","test"]
