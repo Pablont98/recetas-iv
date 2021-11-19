@@ -11,7 +11,7 @@ def installdeps(c):
         && pip install poetry \
         && poetry config virtualenvs.create false \
         && poetry update \
-        && poetry install")
+        && poetry install --no-interaction")
 
 
 @task
