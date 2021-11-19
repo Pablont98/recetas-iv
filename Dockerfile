@@ -12,15 +12,12 @@ RUN chown userprueba:userprueba /app/test
 
 USER userprueba
 
-COPY pyproject.toml /app/test/
-
-COPY tasks.py /app/test/
+COPY pyproject.toml tasks.py /app/test/
 
 ENV PATH="$PATH:/home/userprueba/.local/bin:${PATH}"
 
-RUN pip install invoke
-
-RUN pip install pytest
+RUN pip install invoke \
+    && pip install pytest
 
 RUN invoke installdeps
 
