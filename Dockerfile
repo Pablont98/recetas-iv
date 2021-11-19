@@ -12,7 +12,7 @@ RUN chown -R userprueba:userprueba /app/test
 
 USER userprueba
 
-COPY  poetry.lock  pyproject.toml tasks.py /app
+COPY  poetry.lock  pyproject.toml tasks.py /app/
 
 ENV PATH="$PATH:/home/userprueba/.local/bin"
 
