@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.8-slim-buster
 
 LABEL version="0.0.7" maintainer="e.pablonueztejer@go.ugr.es"
 
