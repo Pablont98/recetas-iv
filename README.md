@@ -33,8 +33,10 @@ Con el proyecto ya descargado:
 
 ## Contenedor de pruebas
 Para la creación del contenedor se ha creado un archivo [Dockerfile](https://github.com/Pablont98/recetas-iv/blob/Objetivo-5/Dockerfile) el cual realiza los 
-pasos necesarios para la correcta creación de dicho contenedor. Como contenedor base se ha optado por el oficial del lenguaje Python en su versión 3.8 (el código
-del proyecto esta escrito en esta versión). Dicho contenedor lo utilizaremos para ejecutar nuestros test. La instalación de dependencias, módulos, bibliotecas,
+pasos necesarios para la correcta creación de dicho contenedor. Como contenedor base se ha optado por el Python3.8-slim-buster, ya que, queremos que nuestro
+contenedor de test corra con la versión 3.8 de Python y ademas la versión slim-buster hace que el contenedor base no sea muy pesado, lo cual es una
+gran ventaja, ya que de 378MB que ocupa hacer el contendor con la version Python 3.8 oficial, con slim-buster se queda entorno a los 70/80MB. 
+Dicho contenedor lo utilizaremos para ejecutar nuestros test. La instalación de dependencias, módulos, bibliotecas,
 etc. Son transparentes al usuario.
 > para realizar los tests dentro de este contenedor se tendrá que disponer de la herramienta docker en nuestro sistema.
 * Se recomienda hacer pull de este repositorio en DockerHub con la siguiente linea en nuestra terminal: ```docker pull pablont98/recetas-iv```.
