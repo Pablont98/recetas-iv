@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "IV"
+name = "recetas-iv"
 version = "0.0.6"
 description = "Aplicacion de recetas"
 authors = ["Pablo Nuñez Tejero <e.pablonueztejer@go.ugr.es>"]
