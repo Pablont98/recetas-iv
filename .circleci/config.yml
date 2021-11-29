@@ -1,5 +1,6 @@
 version: 2.1
 
 jobs:
-  machine:
-    image: ubuntu-2004:202111-01
+  test_language_version:
+    machine:
+      image: ubuntu-2004:202111-01
