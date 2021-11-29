@@ -1,6 +1,14 @@
 version: 2.1
 
 jobs:
-  test_language_version:
+  ejecucion-tests:
     machine:
       image: ubuntu-2004:202111-01
+    steps:
+      - checkout
+      - run:
+          command: docker run -t -v `pwd`:/app/test pablont98/recetas-iv
+workflows:
+  tests-workflows:
+    jobs:
+      - ejecucion-tests
