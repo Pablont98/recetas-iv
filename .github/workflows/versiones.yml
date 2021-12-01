@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        versiones: ['3.8','3.9','3.10']
+        versiones: ['3.6','3.7','3.8','3.9','3.10']
     name: Test version ${{ matrix.versiones }}
     steps:
       - name: checkout
