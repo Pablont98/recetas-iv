@@ -1,0 +1,27 @@
+name: test para versiones
+
+on:
+  pull_request:
+    branches:
+      - main
+      
+jobs:
+  pr-versiones:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        versiones: ['3.8','3.9','3.10']
+    name: Test version ${{ matrix.versiones }}
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: Set up python
+        uses: actions/setup-python@v2.3.0
+        with:
+          versiones: ${{ matrix.versiones }}
+      - name: instalacion invoke
+        run: pip install invoke
+      - name: installdeps
+        run: invoke installdeps
+      - name: tests
+        run: invoke test
