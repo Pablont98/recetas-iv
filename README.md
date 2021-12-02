@@ -47,6 +47,14 @@ etc. Son transparentes al usuario.
 
 Enlace del repositorio en DockerHub [pablont98/recetas-iv](https://hub.docker.com/repository/docker/pablont98/recetas-iv/general)
 
+## Integración continua - Prueba de versiones
+Se ha decidido probar las versiones de la 3.6 a la 3.10 de Python, ya que, son todas las versiones que en 2021 son funcionales. 
+Todas esas versiones funcionan correctamente en el proyecto ya que aun no utiliza bibliotecas las cuales no funcionen en versiones como la 3.6 o 3.7.
+En el futuro, con el avance del proyecto y de su código, posiblemente (seguramente) hagan falta el uso de bibliotecas que no soporten versiones como la
+3.6 o 3.7 en ese momento se redefinirá la matrix de la Github Action hasta la versión minima posible (la primera que no de error).
+Por el momento la versión minima es la 3.6 y la máxima 3.10, que si bien aun no se considera una versión estable, podemos tener cierta certeza de que 
+el código del proyecto escrito por el momento se ejecutará sin problema en esa versión.
+
 ## Información adicional
 * Se ha elegido Poetry como gestor de dependencias, para así poder ajustarnos a las buenas prácticas de Python las cuales ya no hacen uso de requirements.txt sino
   de pyproject.toml. La instalación y uso de este será transparente al usuario ya que se instala desde la orden ```invoke installdeps```. 
