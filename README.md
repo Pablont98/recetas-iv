@@ -21,6 +21,8 @@ Se ira actualizando este archivo con los distintos cambios que vaya teniendo el 
 
 * Objetivo 4 - [Clase Receta que se va a testear](https://github.com/Pablont98/recetas-iv/blob/main/docs/InformacionReceta.md), [Justificación de uso de pytest](https://github.com/Pablont98/recetas-iv/blob/main/docs/justificacion_pytest.md) y [Decisiones de código tomadas](https://github.com/Pablont98/IV/blob/Objetivo-4/docs/decisiones_codigo.md)
 
+* Objetivo 6 - [Documentación de elección y justificación de sistemas de Integración Continua] (https://github.com/Pablont98/recetas-iv/blob/Objetivo-6/docs/IntegracionContinua.md)
+
 ## Instalación y uso
 
 Descargar los archivos fuente de este repositorio de manera directa desde github o [clonándolo](https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository)
