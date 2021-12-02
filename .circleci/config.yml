@@ -1,3 +1,4 @@
+#archivo para ejecutar los test mediante Circle CI
 version: 2.1
 
 jobs:
@@ -8,6 +9,7 @@ jobs:
       - checkout
       - run:
           command: docker run -t -v `pwd`:/app/test pablont98/recetas-iv
+          
 workflows:
   tests-workflows:
     jobs:
